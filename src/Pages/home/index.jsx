@@ -4,9 +4,9 @@ import Halaman from '../../Layouts/halaman'
 
 const Home = () => {
   return (
-    <Halaman textKanan={<h1>Judul</h1>}>
+    <Halaman>
       
-      <p>lorem</p>
+      <p></p>
      </Halaman>
   )
 }
