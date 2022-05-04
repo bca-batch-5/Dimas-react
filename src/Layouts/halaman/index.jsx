@@ -5,7 +5,7 @@ import ImgPhone1 from "../../assets/png-phone.png"
 import ImgPhone2 from "../../assets/png-phone2.png"
 import '../../Styles/HalamanLayout/HalamanStyle.css';
 
-const halaman = (props) => {
+const Halaman = (props) => {
     const{ children }=props;
 
   return (
@@ -34,4 +34,4 @@ const halaman = (props) => {
   )
 }
 
-export default halaman
+export default Halaman

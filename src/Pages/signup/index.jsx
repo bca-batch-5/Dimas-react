@@ -18,7 +18,9 @@ const Signup = () => {
         <Username/>
         <Email/>
         <Pass placeholder="Password"/>
+        <Link to={`./createpin`}>
         <Button>Sign Up</Button>
+        </Link>
         <div className='login'>
           <p>Already have an account? Let's <Link to={'/'} className="direction-two" >Login</Link></p>
         </div>
