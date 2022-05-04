@@ -9,7 +9,7 @@
     margin-top: 15px;
 }
 
-.forgotPass a{
+.direction-one{
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -17,7 +17,7 @@
     font-size: 12px;
 }
 
-.forgotPass a:hover{
+.direction-one:hover{
     color: blue;
 }
 
@@ -27,6 +27,22 @@
     text-align: center;
 }
 
-.signup p a{
+.direction-two{
     text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.direction-two:hover{
+    color: blue;
+}
+
+
+/* bagian di menu signup */
+
+.login{
+    width: 60%;
+    margin-top: 130px;
+    text-align: center;
 }

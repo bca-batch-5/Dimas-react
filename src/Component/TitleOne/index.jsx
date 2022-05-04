@@ -2,7 +2,7 @@ import React from 'react'
 import "../../Styles/Title/Title"
 import { TitleBox, TitleText } from '../../Styles/Title/Title';
 
-const titleOne = (props) => {
+const TitleOne = (props) => {
   const{children}=props;
 
   return (
@@ -12,4 +12,4 @@ const titleOne = (props) => {
   )
 }
 
-export default titleOne
+export default TitleOne
