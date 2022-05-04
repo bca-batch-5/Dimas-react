@@ -4,7 +4,7 @@ export const InputBox = styled.div`
     border: none;
     border-bottom : 2px solid black;
     width : 60%;
-    padding-top: 70px;
+    padding-top: 30px;
 `
 
 export const Input = styled.input`

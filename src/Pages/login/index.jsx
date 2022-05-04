@@ -5,6 +5,7 @@ import Email from '../../Component/Form/Email'
 import "./login.css"
 import SubTitle from '../../Component/SubTitle'
 import Pass from '../../Component/Form/Pass'
+import Button from '../../Component/Button'
 
 const Login = () => {
   return (
@@ -13,7 +14,15 @@ const Login = () => {
       <SubTitle>Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!</SubTitle>
       <form className='form-box'>
         <Email/>
+        <br /><br /><br />
         <Pass/>
+        <div className='forgotPass'>
+        <a href="#">Forgot Password?</a>
+        </div>
+        <Button>Login</Button>
+        <div className='signup'>
+          <p>Don't have an account? Lets <a href="#">Sign Up</a></p>
+        </div>
       </form>
     </Halaman>
   )

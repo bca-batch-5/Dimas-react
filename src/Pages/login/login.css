@@ -2,3 +2,31 @@
     padding-left: 20px;
     margin-top: 50px;
 }
+
+.forgotPass{
+    width: 60%;
+    text-align: end;
+    margin-top: 15px;
+}
+
+.forgotPass a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 12px;
+}
+
+.forgotPass a:hover{
+    color: blue;
+}
+
+.signup{
+    width: 60%;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.signup p a{
+    text-decoration: none;
+}
