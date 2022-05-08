@@ -7,9 +7,9 @@ export const ButtonBox = styled.div`
 `
 export const Tombol = styled.button`
     width: 100%;
-    background-color: blue;
+    background-color: #DADADA ;
     font-size: 20px;
-    color: white;
+    color: #88888F;
     border : none;
     border-radius : 5px;
     cursor: pointer;
@@ -17,6 +17,7 @@ export const Tombol = styled.button`
     height: 35px;
 
     &:hover {
-        background-color: black;
+        background-color: #6379F4;
+        color:white;
     }
 `

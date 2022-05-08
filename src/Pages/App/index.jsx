@@ -5,6 +5,7 @@ import ForgetPass from '../forgetPass';
 import Login from '../login';
 import ResetPass from '../resetPass';
 import Signup from '../signup';
+import SuccesPin from '../succesPin';
 
  
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/forgetpass' element={<ForgetPass/>} />
       <Route path='/resetpass' element={<ResetPass/>} />
       <Route path='/signup/createpin' element={<CreatePin/>}/>
+      <Route path='/signup/createpin/succespin' element={<SuccesPin/>}/>
     </Routes>
     </BrowserRouter>
   )
